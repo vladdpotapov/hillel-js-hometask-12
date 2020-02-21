@@ -1,0 +1,49 @@
+/* GENERAL */
+body {
+    background-color: #2e2e2e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* .content-frame {
+    max-width: 1024px;
+} */
+
+/* SLIDER: Main */
+.slider {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600;
+    border-radius: 5px;
+}
+
+.slider__side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__central {
+    max-width: 500px;
+}
+
+.slider__image {
+    width: 100%
+}
+
+/* SLIDER: Buttons */
+.slider__button {
+    width: 50px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.slider__button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
